@@ -1,0 +1,21 @@
+{
+    "version": "1.2.0",
+    "description": "Control Spotify from your terminal. TUI + CLI.",
+    "homepage": "https://github.com/T4ko0522/Spotify-CLI",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/T4ko0522/Spotify-CLI/releases/download/v1.2.0/spt-v1.2.0-windows-amd64.zip",
+            "hash": "542a3efea17c3910b66cd8e62fe5e9bdfd62f23517ab37b32a7a4e5da1d44248"
+        }
+    },
+    "bin": "spt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/T4ko0522/Spotify-CLI/releases/download/v$version/spt-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
