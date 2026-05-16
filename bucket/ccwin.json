@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Windows toast / sound / webhook notifier for Claude Code Hooks.",
     "homepage": "https://github.com/t4ko0522/ccwin-notify",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/T4ko0522/ccwin-notify/releases/download/v1.0.1/ccwin-v1.0.1-windows-amd64.zip",
-            "hash": "b2048d043167e74b8d025f9d607f142d451e3328cb77cbf249d29c71df3344bf",
+            "url": "https://github.com/T4ko0522/ccwin-notify/releases/download/v1.1.0/ccwin-v1.1.0-windows-amd64.zip",
+            "hash": "61aca49e3b260e56395743cab46bf5cc4850f984fb3d8de14036215009c9e38d",
             "bin": "ccwin.exe"
         }
     },
